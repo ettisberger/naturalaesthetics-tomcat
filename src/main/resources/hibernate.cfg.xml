@@ -22,7 +22,7 @@
 
       <property name="hibernate.hbm2ddl.auto">update</property>
 
-      <!--<mapping class="ch.naturalaesthetics.persistence.NewsEntity"/>-->
+      <mapping class="ch.naturalaesthetics.persistence.NewsEntity"/>
 
   </session-factory>
 </hibernate-configuration>
