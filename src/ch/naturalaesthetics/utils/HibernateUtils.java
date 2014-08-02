@@ -13,10 +13,11 @@ import org.hibernate.service.ServiceRegistry;
  * found on stackoverflow
  */
 
-public class HibernateUtils
+public final class HibernateUtils
 {
     private static SessionFactory sessionFactory;
     private static ServiceRegistry serviceRegistry;
+
     static
     {
         try
@@ -33,6 +34,9 @@ public class HibernateUtils
             System.err.println("Error creating Session: " + he);
             throw new ExceptionInInitializerError(he);
         }
+    }
+
+    private HibernateUtils() {
     }
 
     public static SessionFactory getSessionFactory()
