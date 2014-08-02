@@ -10,7 +10,7 @@
         <!--<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>-->
         <!--<init-param>-->
             <!--<param-name>com.sun.jersey.config.property.packages</param-name>-->
-            <!--<param-value>ch.bailamossalsa.resource.app</param-value>-->
+            <!--<param-value>ch.bailamossalsa.test.app</param-value>-->
         <!--</init-param>-->
         <!--<init-param>-->
             <!--<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>-->
@@ -32,7 +32,7 @@
         <!--<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>-->
         <!--<init-param>-->
             <!--<param-name>com.sun.jersey.config.property.packages</param-name>-->
-            <!--<param-value>ch.bailamossalsa.resource.manager</param-value>-->
+            <!--<param-value>ch.bailamossalsa.test.manager</param-value>-->
         <!--</init-param>-->
         <!--<init-param>-->
             <!--<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>-->
@@ -50,11 +50,11 @@
     <!--</servlet>-->
 
     <!--<security-constraint>-->
-        <!--<web-resource-collection>-->
-            <!--<web-resource-name>BailamosSalsa | Admin</web-resource-name>-->
+        <!--<web-test-collection>-->
+            <!--<web-test-name>BailamosSalsa | Admin</web-test-name>-->
             <!--<url-pattern>/manager/*</url-pattern>-->
             <!--<url-pattern>/manager-api/*</url-pattern>-->
-        <!--</web-resource-collectiƒon>-->
+        <!--</web-test-collectiƒon>-->
         <!--<auth-constraint>-->
             <!--<role-name>manager</role-name>-->
         <!--</auth-constraint>-->
@@ -69,7 +69,7 @@
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
         <init-param>
             <param-name>com.sun.jersey.config.property.packages</param-name>
-            <param-value>ch.naturalaesthetics.resource.app</param-value>
+            <param-value>ch.naturalaesthetics.test.app</param-value>
         </init-param>
         <init-param>
             <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
