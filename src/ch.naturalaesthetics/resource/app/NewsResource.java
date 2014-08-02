@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * News Resource
- *
- * @author Andy Ettisberger [andyATettisberger.ch]
+ * User: ettisberger
+ * Date: 02/08/14
+ * Time: 15:16
  */
 @Path("/news")
 public class NewsResource  {
