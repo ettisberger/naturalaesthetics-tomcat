@@ -1,4 +1,4 @@
-package ch.naturalaesthetics.utils;
+package main.ch.naturalaesthetics.utils;
 
 import org.hibernate.HibernateException;
 import org.hibernate.SessionFactory;

@@ -1,4 +1,4 @@
-package ch.naturalaesthetics.mapper;
+package main.ch.naturalaesthetics.mapper;
 
 import ma.glasnost.orika.BoundMapperFacade;
 import ma.glasnost.orika.MapperFactory;

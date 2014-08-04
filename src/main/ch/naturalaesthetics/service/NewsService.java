@@ -1,14 +1,14 @@
-package ch.naturalaesthetics.service;
+package main.ch.naturalaesthetics.service;
 
-import ch.naturalaesthetics.domain.News;
-import ch.naturalaesthetics.mapper.GenericMapper;
-import ch.naturalaesthetics.mapper.IMapper;
-import ch.naturalaesthetics.persistence.NewsEntity;
+import main.ch.naturalaesthetics.domain.News;
+import main.ch.naturalaesthetics.mapper.GenericMapper;
+import main.ch.naturalaesthetics.mapper.IMapper;
+import main.ch.naturalaesthetics.persistence.NewsEntity;
 
 /**
  * Service providing CRUD access to all Employee (and subclasses) items on database
  *
- * @author Marc Baur [marc.baur@webdesign-baur.ch]
+ * @author Marc Baur [marc.baur@webdesign-baur.main.ch]
  */
 
 public class NewsService extends AbstractService<News, NewsEntity> {

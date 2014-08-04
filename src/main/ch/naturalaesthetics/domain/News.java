@@ -1,4 +1,4 @@
-package ch.naturalaesthetics.domain;
+package main.ch.naturalaesthetics.domain;
 
 /**
  * User: ettisberger

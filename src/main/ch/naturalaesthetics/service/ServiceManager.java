@@ -1,4 +1,4 @@
-package ch.naturalaesthetics.service;
+package main.ch.naturalaesthetics.service;
 
 /**
  * User: ettisberger

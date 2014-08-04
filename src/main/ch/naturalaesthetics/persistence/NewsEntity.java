@@ -1,4 +1,4 @@
-package ch.naturalaesthetics.persistence;
+package main.ch.naturalaesthetics.persistence;
 import javax.persistence.*;
 
 /**

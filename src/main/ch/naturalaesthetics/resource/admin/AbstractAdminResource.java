@@ -1,11 +1,6 @@
-package ch.naturalaesthetics.resource.app;
+package main.ch.naturalaesthetics.resource.admin;
 
-import ch.naturalaesthetics.service.AbstractService;
-
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
@@ -14,9 +9,16 @@ import java.util.List;
  * Date: 02/08/14
  * Time: 15:16
  */
-public class AbstractResource<D, E> {
+public class AbstractAdminResource<D, E> {
 
     AbstractService<D, E> service;
+
+    @DELETE
+    @Path("{id}")
+    @Produces({MediaType.APPLICATION_JSON})
+    public void delete(@PathParam("id") final int id) {
+        service.delete(id);
+    }
 
     @GET
     @Produces({MediaType.APPLICATION_JSON})
@@ -31,4 +33,10 @@ public class AbstractResource<D, E> {
         return service.findById(Integer.valueOf(id));
     }
 
+    @POST
+    @Consumes({MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON})
+    public final D save(final D domainItem) {
+        return service.save(domainItem);
+    }
 }

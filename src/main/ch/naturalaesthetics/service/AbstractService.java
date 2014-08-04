@@ -1,7 +1,7 @@
-package ch.naturalaesthetics.service;
+package main.ch.naturalaesthetics.service;
 
-import ch.naturalaesthetics.mapper.IMapper;
-import ch.naturalaesthetics.utils.HibernateUtils;
+import main.ch.naturalaesthetics.mapper.IMapper;
+import main.ch.naturalaesthetics.utils.HibernateUtils;
 import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
