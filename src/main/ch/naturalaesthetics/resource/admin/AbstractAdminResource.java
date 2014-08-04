@@ -1,5 +1,7 @@
 package main.ch.naturalaesthetics.resource.admin;
 
+import main.ch.naturalaesthetics.service.AbstractService;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;

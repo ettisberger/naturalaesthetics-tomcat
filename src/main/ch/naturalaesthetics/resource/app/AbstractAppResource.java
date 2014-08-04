@@ -1,5 +1,7 @@
 package main.ch.naturalaesthetics.resource.app;
 
+import main.ch.naturalaesthetics.service.AbstractService;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
